@@ -9,4 +9,38 @@
     
     import 'relative/path/to/stylesheet.scss';
 
-*/
+/* */
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bigCounter {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.calendar {
+    font-size: 60px;
+    color: white;
+    margin-right: 10px;
+}
+
+.bigCounter .four,
+.bigCounter .three,
+.bigCounter .two,
+.bigCounter .one {
+    font-size: 60px;
+    background-color: rgb(138, 132, 132);
+    color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+} 
